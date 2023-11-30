@@ -1,3 +1,3 @@
-def da() {
-  sh "echo Hello World"
+def call(message) {
+  sh "echo Hello World ${message}"
 }
