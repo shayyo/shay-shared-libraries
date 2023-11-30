@@ -1,3 +1,3 @@
-def call() {
-  sh "echo Hello wOrLd"
+def call(String fname, String lname) {
+  sh "echo Hello ${fname} ${lname}"
 }
