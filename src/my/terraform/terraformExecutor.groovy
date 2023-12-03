@@ -1,7 +1,7 @@
 package my.terraform
 
 def initialize() {
-    sh 'echo "terraform init"'
+    sh 'echo "terraform initsdsdsd"'
 }
 
 def plan() {
