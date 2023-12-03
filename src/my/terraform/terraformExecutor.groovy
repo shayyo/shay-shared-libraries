@@ -1,6 +1,6 @@
 package my.terraform
 
-def initialize() {
+def init() {
     sh 'echo "terraform init"'
 }
 
