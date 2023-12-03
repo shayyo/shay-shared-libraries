@@ -1,3 +1,3 @@
 def call() {
-  sh "terraform initf"
+  sh "terraform init"
 }
