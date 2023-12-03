@@ -1,3 +1,3 @@
-def call(Map config = [:]) {
+def call() {
   sh "terraform init"
 }
