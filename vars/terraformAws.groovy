@@ -2,7 +2,7 @@ def terraform_initialize() {
   sh "terraform init"
 }
 
-def terraform_paln() {
+def terraform_plan() {
   sh "terraform plan"
 }
 
