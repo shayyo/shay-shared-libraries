@@ -3,9 +3,9 @@ def terraform_initialize() {
 }
 
 def terraform_paln() {
-  sh "terraform init"
+  sh "terraform plan"
 }
 
 def terraform_apply() {
-  sh "terraform init"
+  sh "terraform apply"
 }
