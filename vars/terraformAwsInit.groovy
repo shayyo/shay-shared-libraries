@@ -1,3 +1,3 @@
-def call() {
+def tinit() {
   sh "terraform init"
 }
