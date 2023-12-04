@@ -1,3 +1,3 @@
 def call() {
-  loadLinuxScript(scriptname: "hello_world.sh")
+  loadLinuxScript("hello_world.sh")
 }
