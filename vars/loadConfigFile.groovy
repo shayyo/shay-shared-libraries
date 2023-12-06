@@ -1,3 +1,5 @@
-def call = load 'resources/config.properties'
-echo "Config value: ${configFile.property}"
+def call() {
+  content = load 'resources/config.properties'
+  echo "Config value: ${content}"
+}
 
