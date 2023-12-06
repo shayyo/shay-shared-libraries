@@ -1,5 +1,5 @@
 def call(String region) {
-echo "
+echo '
   provider \"aws\" {
     region = \"eu-central-1\"
   }
@@ -13,5 +13,5 @@ echo "
     tags = {
       Name = \"enforcer\"
     }
-  }"
+  }'
 }
