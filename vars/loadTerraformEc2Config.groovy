@@ -1,3 +1,3 @@
 def call(String region) {
-  sh "echo Hello ${region}\nshay"
+  sh "echo -e Hello ${region}\nshay"
 }
