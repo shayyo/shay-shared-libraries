@@ -1,5 +1,5 @@
 def call() {
-  def filecontents = libraryResource "../resources/config.properties"
-  echo "Config value: ${filecontents}"
+  def filecontent = libraryResource "../resources/config.properties"
+  echo "Config value: ${filecontent}"
 }
 
