@@ -1,3 +1,4 @@
 def call(String region) {
-  sh 'echo -e "Hello ${region}"'
+  sh "echo provider \"${region}\"
+  
 }
