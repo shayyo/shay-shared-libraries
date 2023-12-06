@@ -1,3 +1,5 @@
 def call(String region) {
-  sh "echo ${region}"
+  sh "echo provider \"aws\" {
+             region = ${region}
+           }"
 }
