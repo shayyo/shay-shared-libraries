@@ -1,6 +1,4 @@
-def call(String region) {
-  sh "echo provider aws {"
-  sh "echo region = ${region}"
-  sh "echo }"
-  
+def call() {
+  def terraform_ec2_config_content = libraryResource "aws/terraform/ec2.tf"
+  writeFile file: "aws/terraform/ec2.tf", text: terraform_ec2_config_content
 }
